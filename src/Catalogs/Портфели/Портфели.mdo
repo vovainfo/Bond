@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21b9aac1-7446-4c8d-8fc4-3272f67118aa">
+  <producedTypes>
+    <objectType typeId="98b60329-88da-4d65-a93b-5944818994c9" valueTypeId="697b4db6-d1ad-40fe-9d25-2bd1c0c18948"/>
+    <refType typeId="fe6a24ea-5918-40f1-84e2-de3250a0907e" valueTypeId="aa701b5a-df9f-4fc4-9da8-5b5893dfef9b"/>
+    <selectionType typeId="103bffb9-15d7-445e-9e8b-aaf2b8ae82fb" valueTypeId="61071a3f-e463-4ef3-9a27-85f39d779a6d"/>
+    <listType typeId="3d145dcd-3430-4234-b4f5-f43b0ffb560b" valueTypeId="4105b7b7-0a56-4b09-9085-a96bbc8e2bd7"/>
+    <managerType typeId="d2c6c392-59a4-4439-94ac-1ecd22f6a1ff" valueTypeId="3b335485-80fa-43f3-aaef-1eb0f2545c4b"/>
+  </producedTypes>
+  <name>Портфели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Портфели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Портфели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Портфель</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="2c7bbcdc-d0de-480a-8a34-0a0a32ff7875">
+    <producedTypes>
+      <objectType typeId="6f0e008e-ac5e-42ef-a52b-25a3a16d7fb8" valueTypeId="7a9ba636-9aa2-49f7-ab87-4104cf8c3d15"/>
+      <rowType typeId="eed27bf1-d4e3-43f9-89d8-f4e5ba278cd7" valueTypeId="503ba60b-7471-4849-ae40-3696d790930f"/>
+    </producedTypes>
+    <name>Тикеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тикеры</value>
+    </synonym>
+    <attributes uuid="512a2267-e657-44d4-97cd-68033c5dd8f3">
+      <name>Тикер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тикер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Облигации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1225eca4-6d47-417e-b231-e66596f004e6">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea934d37-809c-4aea-a294-c9c7416d8e40">
+      <name>ДатаПокупки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата покупки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23fc1007-51cc-490b-86d9-837d62052d4f">
+      <name>ЦенаПокупки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена покупки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
