@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="009ccf0f-85c3-4b5b-a5ff-eedce8d046c7">
+  <producedTypes>
+    <objectType typeId="daaf3a05-6197-453c-9f50-f7e72bdf3f7a" valueTypeId="4319ba4d-6a2d-47c2-b48e-72585134d365"/>
+    <managerType typeId="5749d4c5-3010-4e8b-9c4b-21f57e7e4954" valueTypeId="0b38e7a1-cedf-4ec2-97dd-b5b1223b39d3"/>
+  </producedTypes>
+  <name>КонсольКлиентаHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль HTTP-клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольКлиентаHTTP.Form.Форма</defaultForm>
+  <forms uuid="fb7cf040-b38e-47f3-95a9-08d07b6f009a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="408cd86e-4a31-4f90-92cb-7722794ea1cc">
+    <name>ФормаМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мобильного приложения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdffbf4e-d448-4c81-a2a6-28fcd9a18adb">
+    <name>РедакторТекстовогоПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор текстового поля</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="419c684b-78be-4624-bd57-b2b1a9eeb22e">
+    <name>РедакторCookies</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор Cookies</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d95efb04-0ec0-475d-819c-9244f4853443">
+    <name>ЭлементыИмпортаPostman</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элементы импорта Postman</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1768e485-fd90-4395-8ac6-5979cabac51e">
+    <name>КонструкторИдентификатораРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор URL</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b58fb9a8-f4d3-4cf2-a279-4c4a2f1da0ab">
+    <name>MonacoEditor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Monaco editor</value>
+    </synonym>
+    <comment>Автор https://github.com/salexdv</comment>
+  </templates>
+</mdclass:DataProcessor>

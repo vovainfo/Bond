@@ -46,6 +46,7 @@
   </languages>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.КлиентHTTP</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ДействиеВКолонкеСпискаШрифт</styleItems>
@@ -297,6 +298,7 @@
   <commonPictures>CommonPicture.ЦветФона</commonPictures>
   <commonPictures>CommonPicture.ШтампЭлектроннойПодписи</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.КлиентHTTP</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяЗаписьОбъекта</sessionParameters>
@@ -478,6 +480,14 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБонд</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.КлиентHTTP</commonModules>
+  <commonModules>CommonModule.КлиентHTTPВызовСервера</commonModules>
+  <commonModules>CommonModule.КлиентHTTPКлиент</commonModules>
+  <commonModules>CommonModule.КлиентHTTPКлиентСервер</commonModules>
+  <commonModules>CommonModule.КлиентHTTPПовтИсп</commonModules>
+  <commonModules>CommonModule.КлиентHTTPСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.КлиентHTTPСлужебный</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>
@@ -674,6 +684,7 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольКлиентаHTTP</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>

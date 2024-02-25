@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58084517-73d5-4dc8-9ae2-6b9284f96109">
+  <name>КлиентHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP-клиент</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КлиентHTTP</picture>
+  </picture>
+  <content>CommonModule.КлиентHTTP</content>
+  <content>CommonModule.КлиентHTTPВызовСервера</content>
+  <content>CommonModule.КлиентHTTPКлиентСервер</content>
+  <content>CommonModule.КлиентHTTPПовтИсп</content>
+  <content>CommonModule.КлиентHTTPСерверПовтИсп</content>
+  <content>CommonModule.КлиентHTTPСлужебный</content>
+  <content>DataProcessor.КонсольКлиентаHTTP</content>
+  <content>CommonPicture.КлиентHTTP</content>
+  <content>CommonModule.КлиентHTTPКлиент</content>
+</mdclass:Subsystem>
