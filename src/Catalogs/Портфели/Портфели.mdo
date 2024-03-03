@@ -34,6 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Портфели.Form.ФормаСписка</defaultListForm>
   <tabularSections uuid="2c7bbcdc-d0de-480a-8a34-0a0a32ff7875">
     <producedTypes>
       <objectType typeId="6f0e008e-ac5e-42ef-a52b-25a3a16d7fb8" valueTypeId="7a9ba636-9aa2-49f7-ab87-4104cf8c3d15"/>
@@ -109,5 +110,28 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="d3bf5c6f-4e8d-434f-b01a-2e1e49d8e942">
+      <name>Закрыт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыт</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
+  <forms uuid="ae203b63-bc1e-4ee5-9fa6-27629dfe0b82">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

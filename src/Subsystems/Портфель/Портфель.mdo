@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c6ae479-4ea0-4528-89b9-1d6122c0fc36">
+  <name>Портфель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Облигации</content>
+  <content>Catalog.Портфели</content>
+</mdclass:Subsystem>

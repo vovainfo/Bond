@@ -35,6 +35,8 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Облигации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Облигации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Облигации.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="c81694a7-b6da-43f4-823d-6ca8ddb54308">
     <name>SECID</name>
     <synonym>
@@ -522,6 +524,24 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="196f96c4-303b-4400-9dee-fe79bcf2fb5b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aca81d87-580b-4729-a4c7-e59954a36d5f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
