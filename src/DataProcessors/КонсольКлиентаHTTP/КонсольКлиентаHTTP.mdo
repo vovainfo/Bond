@@ -17,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -27,7 +26,6 @@
       <key>ru</key>
       <value>Форма мобильного приложения</value>
     </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="bdffbf4e-d448-4c81-a2a6-28fcd9a18adb">
@@ -36,7 +34,6 @@
       <key>ru</key>
       <value>Редактор текстового поля</value>
     </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -46,7 +43,6 @@
       <key>ru</key>
       <value>Редактор Cookies</value>
     </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -56,7 +52,6 @@
       <key>ru</key>
       <value>Элементы импорта Postman</value>
     </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -66,7 +61,15 @@
       <key>ru</key>
       <value>Конструктор URL</value>
     </synonym>
-    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8bc65523-8b61-426d-9655-977623e6cd91">
+    <name>ФормаОбъединенияСертификатаИКлюча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объединения сертификата и ключа</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -77,5 +80,6 @@
       <value>Monaco editor</value>
     </synonym>
     <comment>Автор https://github.com/salexdv</comment>
+    <templateType>BinaryData</templateType>
   </templates>
 </mdclass:DataProcessor>
