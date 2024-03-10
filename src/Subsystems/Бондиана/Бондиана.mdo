@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a46b2c49-7513-4e1d-bc3a-2e18eace37fe">
+  <name>Бондиана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бондиана</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.СостояниеПортфеля</content>
+  <content>Catalog.Облигации</content>
+  <content>Catalog.Портфели</content>
+</mdclass:Subsystem>

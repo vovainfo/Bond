@@ -519,6 +519,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="001793e5-2004-4596-89c3-acfc924adcf3">
+    <name>BOARDID</name>
+    <synonym>
+      <key>ru</key>
+      <value>BOARDID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="7aa2759b-2992-4793-b62e-34bd67aa0b35">
     <name>ФормаЭлемента</name>
     <synonym>

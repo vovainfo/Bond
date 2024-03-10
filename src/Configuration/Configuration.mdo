@@ -48,6 +48,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.КлиентHTTP</subsystems>
   <subsystems>Subsystem.Портфель</subsystems>
+  <subsystems>Subsystem.Бондиана</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ДействиеВКолонкеСпискаШрифт</styleItems>
@@ -653,6 +654,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Облигации</catalogs>
   <catalogs>Catalog.Портфели</catalogs>
+  <documents>Document.СостояниеПортфеля</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
