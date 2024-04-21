@@ -10,4 +10,7 @@
   <content>Document.СостояниеПортфеля</content>
   <content>Catalog.Облигации</content>
   <content>Catalog.Портфели</content>
+  <content>Catalog.АкцииETF</content>
+  <content>Enum.ТипСделки</content>
+  <content>Document.Сделка</content>
 </mdclass:Subsystem>

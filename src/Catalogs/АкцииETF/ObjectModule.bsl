@@ -8,12 +8,12 @@
 	КонецЕсли;	
 	
 	Наименование = NAME;
-	
 	//@skip-check undefined-variable
 	//@skip-check bsl-legacy-check-dynamic-feature-access
 	БондОбщий.ПроверкаНаличияSECID(Ссылка, SECID);
 КонецПроцедуры
 #КонецОбласти
+
 
 
 #Область СлужебныйПрограммныйИнтерфейс

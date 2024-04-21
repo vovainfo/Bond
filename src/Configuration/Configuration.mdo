@@ -490,6 +490,7 @@
   <commonModules>CommonModule.КлиентHTTPПовтИсп</commonModules>
   <commonModules>CommonModule.КлиентHTTPСерверПовтИсп</commonModules>
   <commonModules>CommonModule.КлиентHTTPСлужебный</commonModules>
+  <commonModules>CommonModule.БондОбщий</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>
@@ -654,7 +655,9 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Облигации</catalogs>
   <catalogs>Catalog.Портфели</catalogs>
+  <catalogs>Catalog.АкцииETF</catalogs>
   <documents>Document.СостояниеПортфеля</documents>
+  <documents>Document.Сделка</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
@@ -670,6 +673,7 @@
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
+  <enums>Enum.ТипСделки</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>

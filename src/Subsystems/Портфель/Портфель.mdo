@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Облигации</content>
   <content>Catalog.Портфели</content>
+  <content>Catalog.АкцииETF</content>
 </mdclass:Subsystem>
