@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9235e1a-e280-4832-aad8-61138a8b5c92">
+  <producedTypes>
+    <selectionType typeId="cc788626-641f-45b3-ad6d-3a67850ccde7" valueTypeId="eb0c9af3-4c17-4920-ab16-d627a6c4d66b"/>
+    <listType typeId="c0b8387b-c1a9-4668-8308-e96a31cb112a" valueTypeId="ca8a04e6-2dbe-4f2e-993e-ddb40c22427f"/>
+    <managerType typeId="0327ea1a-850f-4d02-b0e5-bf298a8000a4" valueTypeId="8f607b82-ef96-4706-9af7-e43103037815"/>
+    <recordSetType typeId="3a313d8e-df11-47c3-ae4a-7cf1b3961b81" valueTypeId="20319ec8-0bdf-491e-8a12-8ef8eb3c85d8"/>
+    <recordKeyType typeId="2881bbb1-e8d2-4ba5-a40e-d5287f0c3655" valueTypeId="d8431af4-5469-429b-bd31-930cc97f3aeb"/>
+    <recordType typeId="69ee4608-ea54-4ac4-abe5-2929b37b7eff" valueTypeId="a7e3e394-2383-4268-a93d-df9ea5048197"/>
+  </producedTypes>
+  <name>Комиссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5c47ca74-75a5-4294-8d22-e9ad1dd0a816">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="fb3ed368-7b82-40c4-a560-9fb12484a6ec">
+    <name>Тикер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тикер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АкцииETF</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

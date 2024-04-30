@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac72191-84db-45dc-acf2-e03b05c4d47d">
+  <producedTypes>
+    <selectionType typeId="72e4a5ec-57cf-4d77-8199-506b79636888" valueTypeId="41d07994-d23a-4df1-b63f-5f0bd66c51cc"/>
+    <listType typeId="ac9c1f19-5588-4000-a0c2-4ac0f6b51d59" valueTypeId="3e6f5a59-7a9d-4441-a452-cffd897d12cf"/>
+    <managerType typeId="328f3c86-9be8-4e8f-acbe-e6bdd9d8890c" valueTypeId="d5b7d850-11f0-441c-8b34-e4573a74d443"/>
+    <recordSetType typeId="497e0d56-5316-47be-ba47-e7aa3222c0d0" valueTypeId="0248d382-0333-454d-a86c-34a468872507"/>
+    <recordKeyType typeId="7fd258ad-d2dc-4e5b-93df-022f01a90fed" valueTypeId="c5774bd7-b189-49e8-b166-9879c2e46b7f"/>
+    <recordType typeId="25cecc8b-b778-4366-9837-d05f96cb7249" valueTypeId="1774a91b-59d6-4e63-9244-ec01f3ecb646"/>
+  </producedTypes>
+  <name>Акции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d737ea94-b0d4-4ab9-9da3-806097ad7fb3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0c36597e-a889-45ed-a0e9-f79965fe73dd">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c9bd4b13-19a5-4090-b0e4-e7a97b52af8c">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="861a1bc6-748e-4dd8-8904-211bcecbc743">
+    <name>СуммаПолная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма полная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f92570fc-f36c-4b9a-9a0b-ed1e5d364108">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПортфелиАкций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bb03c1d9-48b4-4a55-b69d-374f4b47875a">
+    <name>Тикер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тикер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АкцииETF</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

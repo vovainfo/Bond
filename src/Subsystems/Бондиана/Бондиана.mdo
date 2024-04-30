@@ -13,4 +13,7 @@
   <content>Catalog.АкцииETF</content>
   <content>Enum.ТипСделки</content>
   <content>Document.Сделка</content>
+  <content>Catalog.ПортфелиАкций</content>
+  <content>AccumulationRegister.Комиссии</content>
+  <content>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</content>
 </mdclass:Subsystem>

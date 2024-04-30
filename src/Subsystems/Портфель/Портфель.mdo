@@ -10,4 +10,6 @@
   <content>Catalog.Облигации</content>
   <content>Catalog.Портфели</content>
   <content>Catalog.АкцииETF</content>
+  <content>Catalog.ПортфелиАкций</content>
+  <content>AccumulationRegister.Комиссии</content>
 </mdclass:Subsystem>

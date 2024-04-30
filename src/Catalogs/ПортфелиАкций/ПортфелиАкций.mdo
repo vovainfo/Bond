@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38783b62-d38e-4fd7-bf32-abfdc05f5cff">
+  <producedTypes>
+    <objectType typeId="d7b1af6c-9149-4c8f-8ee8-27dc85dcc519" valueTypeId="3ab9fd19-1945-4b67-8bfc-aa5b728ec199"/>
+    <refType typeId="91b28cd9-f166-4a13-bc81-c1941361e3bd" valueTypeId="c51dd2ea-0514-48cf-9168-0c38d98c9795"/>
+    <selectionType typeId="4b174d9c-a3ea-4a2d-9016-4cbb2cf3a1b8" valueTypeId="57b5d963-e78f-4bd1-a97b-10d25d2e1e9b"/>
+    <listType typeId="6289d04f-fbf9-4596-b0ec-9dde7a0d5ea2" valueTypeId="a9a9aaf0-a944-4cce-afdf-0f64500b8ec4"/>
+    <managerType typeId="53838abe-383c-40b0-9ed2-c507b46b260b" valueTypeId="78abe0d5-ba4f-4c69-854b-1496c464f842"/>
+  </producedTypes>
+  <name>ПортфелиАкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели акций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПортфелиАкций.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПортфелиАкций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Портфель акций</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

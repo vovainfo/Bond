@@ -656,6 +656,7 @@
   <catalogs>Catalog.Облигации</catalogs>
   <catalogs>Catalog.Портфели</catalogs>
   <catalogs>Catalog.АкцииETF</catalogs>
+  <catalogs>Catalog.ПортфелиАкций</catalogs>
   <documents>Document.СостояниеПортфеля</documents>
   <documents>Document.Сделка</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
@@ -692,6 +693,7 @@
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольКлиентаHTTP</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
@@ -717,4 +719,7 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Акции</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Комиссии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Прибыль</accumulationRegisters>
 </mdclass:Configuration>
