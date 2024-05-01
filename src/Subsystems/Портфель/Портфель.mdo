@@ -12,4 +12,5 @@
   <content>Catalog.АкцииETF</content>
   <content>Catalog.ПортфелиАкций</content>
   <content>AccumulationRegister.Комиссии</content>
+  <content>Catalog.ИзменениеТорговыхКодов</content>
 </mdclass:Subsystem>

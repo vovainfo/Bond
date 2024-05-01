@@ -657,6 +657,7 @@
   <catalogs>Catalog.Портфели</catalogs>
   <catalogs>Catalog.АкцииETF</catalogs>
   <catalogs>Catalog.ПортфелиАкций</catalogs>
+  <catalogs>Catalog.ИзменениеТорговыхКодов</catalogs>
   <documents>Document.СостояниеПортфеля</documents>
   <documents>Document.Сделка</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>

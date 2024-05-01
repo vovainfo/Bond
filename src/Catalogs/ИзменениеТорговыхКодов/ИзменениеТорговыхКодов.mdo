@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7ed88e-9c27-4c30-9d19-17799b9ff9d3">
+  <producedTypes>
+    <objectType typeId="d9e4f542-e510-4880-afc6-25608b0ad257" valueTypeId="e8654e6b-8c00-4235-89ba-c259075618ae"/>
+    <refType typeId="ee8c3628-5ded-4a59-8323-3f915173c63e" valueTypeId="909b2567-dad1-42fd-a38b-79bb4a271a2b"/>
+    <selectionType typeId="5fe6cb29-cc9c-4381-9a68-a5291679218a" valueTypeId="e8606b8b-d8d0-4a8e-937d-56636c6ac474"/>
+    <listType typeId="b831e8e0-f8d6-4a71-9fea-02c25092ff03" valueTypeId="503c9455-25e9-408f-af6b-3344b6e5e554"/>
+    <managerType typeId="9c0643d3-0ccd-49ee-aa73-cee6e3378898" valueTypeId="3a258f2d-1ec8-4a8f-bd60-8007aad5ddc3"/>
+  </producedTypes>
+  <name>ИзменениеТорговыхКодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение торговых кодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИзменениеТорговыхКодов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИзменениеТорговыхКодов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ИзменениеТорговыхКодов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5c511112-461b-4b5e-9b14-59103d8498b3">
+    <name>action_date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0caf9cbd-ee01-47e7-b740-5067fc2f289c">
+    <name>old_secid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старый secid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="998427cf-cc2a-4e68-aebd-641332bb15d0">
+    <name>new_secid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый secid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f5011fa9-87dc-4cf4-94ca-4e9771fb3459">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

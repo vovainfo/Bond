@@ -16,4 +16,5 @@
   <content>Catalog.ПортфелиАкций</content>
   <content>AccumulationRegister.Комиссии</content>
   <content>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</content>
+  <content>Catalog.ИзменениеТорговыхКодов</content>
 </mdclass:Subsystem>
